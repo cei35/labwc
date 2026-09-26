@@ -1,0 +1,110 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Noto Color Emoji";
+    font-size: 11px;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background-color: #353535;
+    color: #dfdfdf;
+}
+
+#custom-appmenu {
+    padding: 0 10px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#custom-appmenu:hover {
+    background-color: #555555;
+}
+
+#taskbar button {
+    padding: 0 8px;
+    background-color: transparent;
+    color: #dfdfdf;
+    border-bottom: 2px solid transparent;
+}
+
+#taskbar button:hover {
+    background-color: #4a4a4a;
+    box-shadow: none;
+}
+
+#taskbar button.active {
+    background-color: #455a64;
+    border-bottom: 2px solid #4a90d9;
+}
+
+#workspaces button {
+    padding: 0 3px;
+    margin: 0 2px;
+    color: #888888;
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    background-color: #455a64;
+    border-radius: 3px;
+}
+
+#workspaces button.hidden {
+    color: #aaaaaa;
+}
+
+#pulseaudio {
+    padding-right: 10px;
+}
+
+#cpu,
+#memory,
+#tray {
+    padding: 0 4px;
+    color: #dfdfdf;
+}
+
+#battery {
+	padding: 0 4px;
+	color: #ffdc4f;
+}
+
+#network,
+#custom-weather {
+    padding: 0 2px;
+    color: #dfdfdf;
+}
+
+#custom-separator {
+    color: #8c73de;
+}
+
+
+#custom-powermenu {
+    background-color: #2d2d2d;
+    padding: 0 2px;
+    margin: 3px 4px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#custom-powermenu:hover {
+    background-color: #4a90d9;
+}
+
+menu {
+    background: #2d2d2d;
+    border: 1px solid #555555;
+    border-radius: 8px;
+}
+
+menuitem {
+    padding: 5px;
+    color: #dfdfdf;
+    border-radius: 4px;
+}
+
+menuitem:hover {
+    background-color: #666666;
+}

@@ -1,0 +1,64 @@
+<openbox_menu>
+    <menu id="client-menu">
+        <item label="Minimize">
+            <action name="Iconify" />
+        </item>
+        <item label="Maximize">
+            <action name="ToggleMaximize" />
+        </item>
+        <item label="Fullscreen">
+            <action name="ToggleFullscreen" />
+        </item>
+        <item label="Roll Up/Down">
+            <action name="ToggleShade" />
+        </item>
+        <item label="Decorations">
+            <action name="ToggleDecorations" />
+        </item>
+        <item label="Always on Top">
+            <action name="ToggleAlwaysOnTop" />
+        </item>
+        <item label="Close">
+            <action name="Close" />
+        </item>
+
+        <menu id="client-send-to-menu" />
+    </menu>
+
+    <menu id="root-menu">
+        <item label="KeepassXC">
+            <action name="Execute" command="keepassxc" />
+        </item>
+        <item label="Librewolf">
+            <action name="Execute" command="librewolf" />
+        </item>
+        <item label="Thunar">
+            <action name="Execute" command="thunar" />
+        </item>
+        <item label="Kate">
+            <action name="Execute" command="kate" />
+        </item>
+        <item label="Mousepad">
+            <action name="Execute" command="mousepad" />
+        </item>
+        <item label="LibreOffice">
+            <action name="Execute" command="lowriter" />
+        </item>
+        <item label="Terminal">
+            <action name="Execute" command="foot" />
+        </item>
+        <item label="Virt-manager">
+            <action name="Execute" command="virt-manager" />
+        </item>
+        <separator />
+        <item label="Htop">
+            <action name="Execute" command="foot -e htop" />
+        </item>
+        <item label="Reconfigure">
+            <action name="Reconfigure" />
+        </item>
+        <item label="Exit">
+            <action name="Exit" />
+        </item>
+    </menu>
+</openbox_menu>

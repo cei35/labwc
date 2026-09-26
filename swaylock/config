@@ -1,0 +1,37 @@
+ignore-empty-password
+show-failed-attempts
+
+clock
+timestr=%H:%M:%S
+datestr=%a %d %b %Y
+font="JetBrainsMono Nerd Font"
+
+image=.config/lock.png
+scaling=fill
+color=1e1e2e
+
+indicator-radius=120
+indicator-thickness=8
+
+inside-color=00000066
+inside-clear-color=00000066
+inside-ver-color=00000066
+inside-wrong-color=00000066
+
+ring-color=ffffff20
+ring-clear-color=3584e4ff
+ring-ver-color=f6d32dff
+ring-wrong-color=e01b24ff
+
+line-color=00000000
+line-clear-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+
+key-hl-color=3584e4ff
+bs-hl-color=e01b24ff
+
+text-color=ffffffff
+text-clear-color=ffffffff
+text-ver-color=ffffffff
+text-wrong-color=ffffffff

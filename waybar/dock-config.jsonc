@@ -1,0 +1,69 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "exclusive": false,
+    "height": 40,
+    "margin-bottom": 0,
+    "modules-center": [
+        "custom/keepassxc",
+        "custom/librewolf",
+        "custom/thunar",
+        "custom/kate",
+        "custom/mousepad",
+        "custom/writer",
+        "custom/foot",
+        "custom/virt-manager",
+        "wlr/taskbar"
+    ],
+
+    // Default apps - same order as before
+    "custom/keepassxc": {
+        "format": " ",
+        "tooltip-format": "KeePassXC",
+        "on-click": "keepassxc"
+    },
+    "custom/librewolf": {
+        "format": " ",
+        "tooltip-format": "LibreWolf",
+        "on-click": "librewolf"
+    },
+    "custom/thunar": {
+        "format": " ",
+        "tooltip-format": "Thunar",
+        "on-click": "thunar"
+    },
+    "custom/kate": {
+        "format": " ",
+        "tooltip-format": "Kate",
+        "on-click": "kate"
+    },
+    "custom/mousepad": {
+        "format": " ",
+        "tooltip-format": "Mousepad",
+        "on-click": "mousepad"
+    },
+    "custom/writer": {
+        "format": " ",
+        "tooltip-format": "LibreOffice Writer",
+        "on-click": "libreoffice --writer"
+    },
+    "custom/foot": {
+        "format": " ",
+        "tooltip-format": "Foot Terminal (Super+Shift+7)",
+        "on-click": "foot"
+    },
+    "custom/virt-manager": {
+        "format": " ",
+        "tooltip-format": "Virt-Manager (Super+Shift+8)",
+        "on-click": "virt-manager"
+    },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 24,
+        "icon-theme": "Papirus",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close"
+    }
+}

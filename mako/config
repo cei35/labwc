@@ -1,0 +1,17 @@
+sort=-time
+background-color=#2e3440
+width=200
+height=60
+border-size=1
+border-color=#1c212b
+border-radius=8
+max-icon-size=32
+default-timeout=4000
+ignore-timeout=1
+font=JetBrainsMono Nerd Font 8
+padding=3
+margin=3
+
+[urgency=high]
+background-color=#b21717
+default-timeout=15000

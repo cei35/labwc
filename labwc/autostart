@@ -1,0 +1,15 @@
+swaybg -m fill -i ~/.config/background.png >/dev/null 2>&1 &
+
+waybar >/dev/null 2>&1 &
+
+mako >/dev/null 2>&1 &
+
+swayidle -w \
+	timeout 300 'swaylock -f' \
+	timeout 600 'wlopm --off \*' \
+	resume 'wlopm --on \*' \
+	before-sleep 'swaylock -f' >/dev/null 2>&1 &
+
+pipewire &
+pipewire-pulse &
+wireplumber &

@@ -1,0 +1,6 @@
+[terminal]
+vt = 7
+
+[default_session]
+command = "tuigreet --time --time-format '%a %d %b %Y - %H:%M:%S' --remember --cmd 'dbus-run-session labwc' --power-shutdown 'doas /sbin/poweroff' --power-reboot 'doas /sbin/reboot'"
+user = "greetd"

@@ -1,0 +1,75 @@
+#custom-keepassxc,
+#custom-librewolf,
+#custom-thunar,
+#custom-kate,
+#custom-mousepad,
+#custom-writer,
+#custom-foot,
+#custom-virt-manager {
+    min-width: 28px;
+    min-height: 28px;
+    padding: 0;
+    margin: 2px 4px;
+    font-size: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    
+    border-radius: 4px;
+}
+
+#custom-keepassxc:hover,
+#custom-librewolf:hover,
+#custom-thunar:hover,
+#custom-kate:hover,
+#custom-mousepad:hover,
+#custom-writer:hover,
+#custom-foot:hover,
+#custom-virt-manager:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#custom-keepassxc    { background-image: url("/usr/share/icons/Papirus/64x64/apps/org.keepassxc.KeePassXC.svg"); }
+#custom-librewolf    { background-image: url("/usr/share/icons/Papirus/64x64/apps/librewolf.svg"); }
+#custom-thunar       { background-image: url("/usr/share/icons/Papirus/64x64/apps/system-file-manager.svg"); }
+#custom-kate         { background-image: url("/usr/share/icons/Papirus/64x64/apps/kate.svg"); }
+#custom-mousepad     { background-image: url("/usr/share/icons/Papirus/64x64/apps/org.xfce.mousepad.svg"); }
+#custom-writer       { background-image: url("/usr/share/icons/Papirus/64x64/apps/libreoffice-writer.svg"); }
+#custom-foot         { background-image: url("/usr/share/icons/Papirus/64x64/apps/foot.svg"); }
+#custom-virt-manager { background-image: url("/usr/share/icons/Papirus/64x64/apps/virt-manager.svg"); }
+
+window#waybar {
+    background-color: transparent;
+    transition: margin-bottom 0.2s ease-in-out;
+}
+
+.modules-center {
+
+    background-color: #4f4f4f;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 6px;
+}
+
+.modules-center:hover {
+    margin-bottom: 4px;
+}
+
+#taskbar {
+    padding-left: 6px;
+    margin-left: 4px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#taskbar button {
+    padding: 2px 6px;
+    margin: 0 2px;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px 6px 0 0;
+}
+
+#taskbar button.active {
+    border-bottom: 3px solid #3584e4;
+    background: rgba(255, 255, 255, 0.12);
+}
