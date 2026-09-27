@@ -42,7 +42,7 @@ apk add mesa-dri-gallium mesa-va-gallium \
     labwc labwc-doc foot \
     waybar waybar-doc fuzzel \
     seatd dbus dconf \
-    swaybg swayidle swaylock \
+    swaybg swayidle swaylock-effects \
     mako libnotify \
     pam-rundir util-linux-login \
     pipewire pipewire-pulse wireplumber pamixer brightnessctl \
